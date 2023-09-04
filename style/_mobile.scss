@@ -1,0 +1,91 @@
+@media (max-width: 400px) {
+  body {
+    height: 100px;
+    overflow: visible;
+    .wrapper {
+      .box {
+        height: auto;
+        overflow-y: visible;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .picture_man {
+          display: none;
+          img {
+            display: none;
+          }
+        }
+        .mobile-versionImg {
+          width: 93%;
+          display: block;
+          margin-top: 10px;
+          img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 20px;
+          }
+        }
+        .right_box {
+          width: 100%;
+          position: initial;
+          .content_box {
+            padding-left: 0;
+            .text_about {
+              height: auto;
+              overflow-y: auto;
+              .text_about_box {
+                display: none;
+                width: 90%;
+                overflow-y: auto;
+                .top {
+                  width: 100%;
+                  .light_box {
+                    display: none;
+                  }
+                  .personal {
+                    text-transform: uppercase;
+                  }
+                  .title {
+                    margin-bottom: 30px;
+                  }
+                }
+              }
+              & .content--active {
+                display: block;
+              }
+            }
+          }
+        }
+
+        .btn-icon {
+          display: none;
+        }
+
+        .footer {
+          display: flex;
+          margin-bottom: 10px;
+          width: 80%;
+          padding: 20px 20px;
+          justify-content: space-between;
+          align-items: center;
+          border-radius: 30px;
+          background-color: #000000;
+          .btn {
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 15px;
+            letter-spacing: 0em;
+            border: 0;
+            outline: none;
+            background-color: transparent;
+            color: #ffffff8a;
+          }
+          & .activeMob {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}

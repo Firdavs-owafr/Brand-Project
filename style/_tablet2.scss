@@ -1,0 +1,66 @@
+@media (max-width: 650px) {
+  body {
+    .wrapper {
+      .box {
+        .picture_man {
+          display: flex;
+          text-align: center;
+          img {
+            width: 100%;
+            height: 100%;
+            object-position: -50px;
+          }
+        }
+        .right_box {
+          .content_box {
+            padding-left: 0;
+            .text_about {
+              .text_about_box {
+                width: 80%;
+
+                margin: 0 auto;
+                flex-wrap: wrap;
+                .top {
+                  .title {
+                    font-size: 40px;
+                    line-height: 45px;
+                  }
+                  .title_box_div {
+                    height: auto;
+                    flex-wrap: wrap;
+                    .title_box_diagram {
+                      &:nth-child(1) {
+                        margin-bottom: 20px;
+                      }
+                      .work_station {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        margin-bottom: 40px;
+                        .about_work_station {
+                          margin-bottom: 20px;
+                        }
+                        .about_work {
+                          .linie2 {
+                            display: none;
+                          }
+                          .about_work_company {
+                            width: 100%;
+                            height: 150px;
+                            font-size: 17px;
+                            overflow-y: scroll; 
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
