@@ -41,7 +41,7 @@ body {
         align-items: center;
         overflow: hidden;
         .content_box {
-          padding-left: 130px;
+          padding-left: 100px;
           height: 100vh;
           overflow: hidden;
           scroll-behavior: smooth;
@@ -70,7 +70,7 @@ body {
                   display: flex;
                   justify-content: center;
                   align-items: center;
-                  padding-bottom: 40px;
+                  padding-bottom: 30px;
                   .lightning {
                     width: 37px;
                     height: 37px;
@@ -94,6 +94,7 @@ body {
                       background-color: rgba(128, 128, 128, 0.274);
                       margin: 0px 0 100px 0;
                     }
+
                     .design_box {
                       margin-bottom: 100px;
                       .design {
@@ -188,15 +189,14 @@ body {
                   font-weight: 600;
                   line-height: 14px;
                   letter-spacing: 1px;
-                  text-align: left;
                   color: #9d9d9d;
-                  margin-bottom: 24px;
+                  margin-bottom: 20px;
                 }
                 .title {
                   width: max-content;
-                  font-size: 60px;
+                  font-size: 44px;
                   font-weight: 600;
-                  line-height: 72px;
+                  line-height: 45px;
                   letter-spacing: -2px;
                   text-align: left;
                   color: #37352f;
@@ -209,7 +209,7 @@ body {
                   letter-spacing: -1px;
                   text-align: left;
                   color: #37352f;
-                  margin-bottom: 15px;
+                  margin-bottom: 10px;
                   list-style: none;
                 }
                 .context_about {
@@ -220,7 +220,7 @@ body {
                   letter-spacing: -1px;
                   text-align: left;
                   color: #37352f;
-                  margin-bottom: 40px;
+                  margin-bottom: 30px;
                 }
                 .connect_me {
                   display: flex;
@@ -266,12 +266,29 @@ body {
                   }
                 }
               }
+
               &:nth-of-type(3) {
                 .top {
+                  width: 90%;
                   .title_box_div {
                     .title_box_diagram {
                       .title_skills {
                         margin-bottom: 0;
+                      }
+                    }
+                  }
+                }
+              }
+              &:nth-of-type(4) {
+                .top {
+                  width: 90%;
+                  .title_box_div {
+                    .title_box_diagram {
+                      .title_skills {
+                        margin-bottom: 0;
+                      }
+                      .linie {
+                        margin: 0px 0 32px 0;
                       }
                     }
                   }

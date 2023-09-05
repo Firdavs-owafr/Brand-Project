@@ -62,7 +62,7 @@ body .wrapper .box .right_box {
   overflow: hidden;
 }
 body .wrapper .box .right_box .content_box {
-  padding-left: 130px;
+  padding-left: 100px;
   height: 100vh;
   overflow: hidden;
   scroll-behavior: smooth;
@@ -107,7 +107,7 @@ body .wrapper .box .right_box .content_box .text_about .text_about_box .top .lig
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 body .wrapper .box .right_box .content_box .text_about .text_about_box .top .light_box .lightning {
   width: 37px;
@@ -239,17 +239,16 @@ body .wrapper .box .right_box .content_box .text_about .text_about_box .top .per
   font-weight: 600;
   line-height: 14px;
   letter-spacing: 1px;
-  text-align: left;
   color: #9d9d9d;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 body .wrapper .box .right_box .content_box .text_about .text_about_box .top .title {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  font-size: 60px;
+  font-size: 44px;
   font-weight: 600;
-  line-height: 72px;
+  line-height: 45px;
   letter-spacing: -2px;
   text-align: left;
   color: #37352f;
@@ -262,7 +261,7 @@ body .wrapper .box .right_box .content_box .text_about .text_about_box .top .tex
   letter-spacing: -1px;
   text-align: left;
   color: #37352f;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   list-style: none;
 }
 body .wrapper .box .right_box .content_box .text_about .text_about_box .top .context_about {
@@ -273,7 +272,7 @@ body .wrapper .box .right_box .content_box .text_about .text_about_box .top .con
   letter-spacing: -1px;
   text-align: left;
   color: #37352f;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 body .wrapper .box .right_box .content_box .text_about .text_about_box .top .connect_me {
   display: -webkit-box;
@@ -333,8 +332,20 @@ body .wrapper .box .right_box .content_box .text_about .text_about_box .top .con
 body .wrapper .box .right_box .content_box .text_about .text_about_box .top .connect_me .connect:nth-child(1) {
   margin-right: 40px;
 }
+body .wrapper .box .right_box .content_box .text_about .text_about_box:nth-of-type(3) .top {
+  width: 90%;
+}
 body .wrapper .box .right_box .content_box .text_about .text_about_box:nth-of-type(3) .top .title_box_div .title_box_diagram .title_skills {
   margin-bottom: 0;
+}
+body .wrapper .box .right_box .content_box .text_about .text_about_box:nth-of-type(4) .top {
+  width: 90%;
+}
+body .wrapper .box .right_box .content_box .text_about .text_about_box:nth-of-type(4) .top .title_box_div .title_box_diagram .title_skills {
+  margin-bottom: 0;
+}
+body .wrapper .box .right_box .content_box .text_about .text_about_box:nth-of-type(4) .top .title_box_div .title_box_diagram .linie {
+  margin: 0px 0 32px 0;
 }
 body .wrapper .box .btn-icon {
   width: 100%;
